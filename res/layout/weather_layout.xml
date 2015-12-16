@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/method_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By URLConnection" />
+
+    <Button
+        android:id="@+id/method_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By HttpClient" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="something to show!"/>
+
+</LinearLayout>

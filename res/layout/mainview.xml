@@ -1,0 +1,77 @@
+<!--
+   Copyright 2013 Csaba Szugyiczki
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res/com.zlt.test"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <com.zlt.test.CircleLayout
+        android:id="@+id/main_circle_layout"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        circle:circleBackground="@drawable/icon_center"
+        circle:firstChildPosition="South"
+        circle:isRotating="true"
+        circle:rotateToCenter="true" >
+
+        <!-- circle:circleBackground="@drawable/green"  > -->
+
+        <com.zlt.test.CircleImageView
+            android:id="@+id/main_facebook_image"
+            circle:name="@string/facebook"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/icon_facebook" />
+
+        <com.zlt.test.CircleImageView
+            android:id="@+id/main_myspace_image"
+            circle:name="@string/myspace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_myspace" />
+
+        <com.zlt.test.CircleImageView
+            android:id="@+id/main_google_image"
+            circle:name="@string/google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_google" />
+
+        <com.zlt.test.CircleImageView
+            android:id="@+id/main_linkedin_image"
+            circle:name="@string/linkedin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_linkedin" />
+
+        <com.zlt.test.CircleImageView
+            android:id="@+id/main_twitter_image"
+            circle:name="@string/twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_twitter" />
+
+        <com.zlt.test.CircleImageView
+            android:id="@+id/main_wordpress_image"
+            circle:name="@string/wordpress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_wordpress" />
+    </com.zlt.test.CircleLayout>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<school>
+    <grade name="一年级">
+        <class name="(1)班">
+            <student>
+                <name>学生A</name>
+                <sex>男</sex>
+            </student>
+            <student>
+                <name>学生B</name>
+                <sex>女</sex>
+            </student>
+        </class>
+        <class name="(2)班">
+            <student>
+                <name>学生A1</name>
+                <sex>男</sex>
+            </student>
+            <student>
+                <name>学生B1</name>
+                <sex>女</sex>
+            </student>
+        </class>
+    </grade>
+    <grade name="二年级">
+        <class name="(2)班">
+            <student>
+                <name>学生C</name>
+                <sex>男</sex>
+            </student>
+            <student>
+                <name>学生D</name>
+                <sex>女</sex>
+            </student>
+        </class>
+    </grade>
+    <grade name="三年级">
+        <class name="(1)班">
+            <student>
+                <name>学生C3</name>
+                <sex>男</sex>
+            </student>
+            <student>
+                <name>学生D3</name>
+                <sex>女</sex>
+            </student>
+        </class>
+    </grade>
+</school>

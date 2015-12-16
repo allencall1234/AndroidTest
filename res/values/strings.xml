@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="google">Google</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="wordpress">Wordpress</string>
+    <string name="myspace">Myspace</string>
+	<string name="change">&lt;-></string>
+	
+	<string-array name="activities">
+	    <item >com.zlt.test.ObjectTransDemo</item>
+	    <item >com.zlt.test.FilterableDemo</item>
+	    <item >com.zlt.test.BeanTest</item>
+	    <item >com.zlt.test.ImageLoaderDemo</item>
+	    <item >com.zlt.test.HttpTestDemo</item>
+	    <item >com.zlt.test.WeatherDemo</item>
+	    <item >com.zlt.test.ConfigurationDemo</item>
+	    <item >com.zlt.test.FloatingButton</item>
+	    <item >com.zlt.test.SerializeAndDeSerialize</item>
+	    <item >com.zlt.test.PixelDemo</item>
+	    <item >com.zlt.test.FriendsDemo</item>
+	    <item >com.zlt.test.SparseIntArrayTest</item>
+	    <item >com.zlt.thread.ThreadTestActivity</item>
+	    <item >com.zlt.thread.TimerTaskActivity</item>
+	    <item >com.zlt.test.CustomViewDemo</item>
+	    <item >com.zlt.test.CameraDemo</item>
+	    <item >com.zlt.test.HandlerTest</item>
+	    <item >com.zlt.test.xmlparse.XmlParseAcitivity</item>
+	</string-array>
+</resources>
